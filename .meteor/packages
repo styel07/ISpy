@@ -22,3 +22,7 @@ fourseven:scss
 foundation
 ewall:foundation
 dburles:google-maps
+iron:router
+accounts-base
+accounts-ui
+accounts-password
