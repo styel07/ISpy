@@ -1,0 +1,100 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "css",
+      "file": "web.browser/css/normalize.css",
+      "length": 7783,
+      "offset": 0,
+      "path": "css/normalize.css",
+      "hash": "1a1f7c7632a40dedc3dce1795c1ac5102ee7ed1f",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "css",
+      "file": "web.browser/css/foundation.min.css",
+      "length": 141825,
+      "offset": 0,
+      "path": "css/foundation.min.css",
+      "hash": "de08f14daa6c5d293554077df7b93f954b7df5fc",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/vendor/modernizr.js",
+      "length": 11262,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/vendor/modernizr.js",
+      "hash": "0da35e6bea234fa33e1f3e37744252d327c81c04",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/vendor/fastclick.js",
+      "length": 8271,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/vendor/fastclick.js",
+      "hash": "ca963461d0677887aa1bf64861f125cb06563d03",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/vendor/jquery.cookie.js",
+      "length": 1415,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/vendor/jquery.cookie.js",
+      "hash": "74f7f68550e90a1def6faa6de6e0830f1ab34970",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/vendor/placeholder.js",
+      "length": 2330,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/vendor/placeholder.js",
+      "hash": "967a5ae9a87a48b0cc17ec4ce014eeaee1d537ad",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/foundation.min.js",
+      "length": 95120,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/foundation.min.js",
+      "hash": "2ef08374ed7a088e24458dad3382b3029f399cfa",
+      "fileOptions": {}
+    },
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser/js/activate-foundation.js",
+      "length": 155,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "js/activate-foundation.js",
+      "hash": "2b20f70ffb844657385e4df67a25e75b600130ea",
+      "fileOptions": {}
+    }
+  ]
+}
