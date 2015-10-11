@@ -1,0 +1,91 @@
+<template name="main">
+  <title>Let's play!</title>
+
+<body>
+
+<ul class="button-group round">
+  <li><a href="#" class="button">Add Marker</a></li>
+  <li><a href="#" class="button">Delete Marker</a></li>
+  <li><input class="button-groud round" type="filepicker" data-fp-apikey="AL1xLgWq0SsykUvj3fM0lz" data-fp-mimetypes="image/*" data-fp-container="modal" data-fp-store-location="s3" data-fp-services="BOX,CLOUDDRIVE,COMPUTER,DROPBOX,FACEBOOK,GITHUB,GOOGLE_DRIVE,FLICKR,EVERNOTE,GMAIL,INSTAGRAM,IMAGE_SEARCH,URL,PICASA,FTP,CUSTOMSOURCE,CLOUDAPP,IMGUR" onchange="alert(event.fpfile.url)">
+  </li>
+</ul>
+<!--   <div class="row">
+    <div class="large-3 columns">
+      <h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
+    </div>
+    </div> -->
+
+    <div class="large-9 columns">
+      <ul class="inline-list right">
+      <h5>Welcome Francis
+        <a href="#" id="logout">Logout</a>
+      </h5>
+      </ul>
+    </div>
+
+
+
+<!-- MAP -->
+    <div class="row">
+      <div class="large-9 push-3 columns">
+
+        <h3>WHERE ARE THE HOTTIES?</h3>
+
+        {{> map}}
+
+        <div id="comment">
+        <p>Blah blah blah</p>
+        </div>
+      </div>
+
+<!-- LEFT SIDE -->
+    <div class="large-3 pull-9 columns">
+
+      <ul class="side-nav">
+        <p>
+          <img src="http://images5.fanpop.com/image/photos/24800000/Pusheen-pusheen-the-cat-24896962-173-147.gif" id="myModal">
+          vote/comment
+        </p>
+         <p>
+          <img src="http://images5.fanpop.com/image/photos/24800000/Pusheen-pusheen-the-cat-24896962-173-147.gif">
+          vote/comment
+        </p>
+         <p>
+          <img src="http://images5.fanpop.com/image/photos/24800000/Pusheen-pusheen-the-cat-24896962-173-147.gif">
+          vote/comment
+        </p>
+      </ul>
+    </div>
+</div>
+
+<a href="#" data-reveal-id="myModal">Attach this to picture, for comments</a>
+
+<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">Awesome. I have it.</h2>
+  <p class="lead">Your couch.  It is mine.</p>
+  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+</body>
+
+
+ <!-- FOOTER -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr/>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright to Francis, Naomi, El, and Kasi</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+          <a href="#">This</a>
+           <a href="#">is</a>
+           <a href="#">the</a>
+           <a href="#">footer</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
