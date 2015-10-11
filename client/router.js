@@ -12,7 +12,7 @@ Router.configure({
         // console.log('Router: no user');
       }
     } else if (Router.current().route.getName() === 'login') {  // else user is loggedIn;
-      this.redirect('map');
+      this.redirect('main');
       // console.log('Router: redirecting');
     }
     // else
@@ -23,6 +23,5 @@ Router.configure({
 
 Router.route('/', { template: '' });
 Router.route('/login', { template: '' });
-Router.route('/map');
-// Router.route('/dashboard', { template: ''});
+Router.route('/main');
 // By default the router will render the capitalized name of the template, with punctuations removed and next letter capped.
