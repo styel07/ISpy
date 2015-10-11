@@ -1,0 +1,23 @@
+<head>
+  <title>ISpy</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> map}}
+
+</body>
+
+<!-- &key=AIzaSyDF5krqF2pjIEVm4UPoxo3ujoOakv2LCEc"> -->
+
+
+<template name="map">
+  <div class="map-container">
+    {{> googleMap name="map" options=mapOptions}}
+  </div>
+</template>
+
+<template name="login">
+  Login Stuff
+</template>
