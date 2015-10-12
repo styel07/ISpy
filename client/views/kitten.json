@@ -1,0 +1,34 @@
+{
+  "objectInfo": [{
+    "object" : {
+      "id" : 1,
+      "name" : "smexy kitty",
+      "image" : "imageURLOfSmexyKitty",
+      "description" : "this is a picture of a smexy kitty",
+      "center" : {
+        "lat" : 41.878,
+        "lng" : -87.629
+      }
+    },
+    "object" : {
+      "id" : 2,
+      "name" : "sad kitty",
+      "description" : "picture of sad kitty",
+      "image" : "imageURLOfSadKitty",
+      "center" : {
+        "lat" : 40.714,
+        "lng" : -74.005
+      }
+    },
+    "object" : {
+      "id" : 3,
+      "name" : "grumpy kitty",
+      "description" : "picture of grumpy kitty",
+      "image" : "imageURLOfGrumpyKitty",
+      "center" : {
+        "lat" : 41.714,
+        "lng" : -84.005
+      }
+    }
+  }]
+}
